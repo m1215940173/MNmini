@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "Information/InformationList"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MONA",
+    "navigationBarTextStyle": "black"
+  }
+}

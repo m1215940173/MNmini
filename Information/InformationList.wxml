@@ -1,0 +1,68 @@
+<view>
+  <swiper class="swiper_top">
+    <swiper-item>
+      <view class='swiper_top_view'>
+      大图
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='swiper_top_view'>
+      大图
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='swiper_top_view'>
+      大图
+      </view>
+    </swiper-item>
+  </swiper>
+  <scroll-view scroll-x class='view_center_x'>
+        <view class='view_center_x_view'>
+              小图
+        </view>
+        <view class='view_center_x_view'>
+              小图
+        </view>
+        <view class='view_center_x_view'>
+              小图
+        </view>
+        <view class='view_center_x_view'>
+              小图
+        </view>
+        <view class='view_center_x_view'>
+              小图
+        </view>
+     
+  </scroll-view>
+  <view class='view_center_y'>
+        <view class='view_center_y_view'>
+              <view  class='type_describe'>
+                <text class='type_title'>最新活动</text>
+                <text class='type_text'> | 04月07日 星期六</text>
+              </view>
+              <view class='type_view'>
+                <view class='type_view_img'>图片</view>
+                <view class='type_view_text'>
+                  <view class='type_view_text_title'><text>莫娜美妆学院招生通知！！！</text></view>
+                  <view class='type_view_text_content'>莫娜美妆学院招生通知！！！</view>
+                </view>
+                <view class='type_view_bottom'>20项</view>
+              </view>
+        </view>
+        <view class='view_center_y_view'>
+              <view  class='type_describe'>
+                <text class='type_title'>最新活动</text>
+                <text class='type_text'> | 04月07日 星期六</text>
+              </view>
+              <view class='type_view'>
+                <view class='type_view_img'>图片</view>
+                <view class='type_view_text'>
+                  <view class='type_view_text_title'><text>莫娜美妆学院招生通知！！！</text></view>
+                  <view class='type_view_text_content'>莫娜美妆学院招生通知！！！</view>
+                </view>
+                <view class='type_view_bottom'>20项</view>
+              </view>
+        </view>
+  </view> 
+
+</view>
