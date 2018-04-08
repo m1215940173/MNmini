@@ -6,7 +6,7 @@
   background-color:#c33f88;
   height:670rpx;
   margin : 20rpx 8% 10rpx 8%;
-  border-radius: 8px;
+  border-radius: 6px;
   box-shadow: 14rpx 14rpx 6rpx #888888;
 }
 .view_center_x{
@@ -18,7 +18,7 @@
   height:200rpx;
   width: 150rpx;
   margin : 15rpx 20rpx 15rpx 20rpx;
-  border-radius: 8px;
+  border-radius: 6px;
   display: inline-block;
   box-shadow: 14rpx 14rpx 6rpx #888888;
 }
@@ -41,7 +41,7 @@
 .type_view{
   margin: 10px 5px 200px 5px;
   height: 380px;
-  border-radius: 8px;
+  border-radius: 6px;
   overflow: hidden;
   box-shadow:-5px 0px 5px #aaa, 
   0px -5px 5px #aaa, 

@@ -1,5 +1,13 @@
 // Information/InformationList.js
 Component({
+
+  toast: function (){
+    wx.navigateTo({
+      url: 'information/information-list'
+    })
+  },
+
+
   /**
    * 组件的属性列表
    */
@@ -21,3 +29,4 @@ Component({
 
   }
 })
+

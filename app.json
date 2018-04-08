@@ -1,6 +1,7 @@
 {
   "pages": [
-    "Information/InformationList"
+    "information/information-index",
+    "information/information-list"
   ],
   "window": {
     "backgroundTextStyle": "light",
