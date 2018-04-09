@@ -2,7 +2,7 @@
   <swiper class="swiper_top">
     <swiper-item >
       <view class='swiper_top_view'bindtap="toast">
-      大图
+      跳转
       </view>
     </swiper-item>
     <swiper-item>

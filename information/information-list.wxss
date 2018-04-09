@@ -16,7 +16,7 @@
   float: left;
   box-shadow: 14rpx 14rpx 6rpx #888888;
   background-color: yellowgreen;
-  transform:rotate(7deg);
+  transform:rotate(0deg);
 }
 .list_view_view{
   width: 100%;

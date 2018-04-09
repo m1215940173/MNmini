@@ -1,0 +1,7 @@
+.details-view{
+  background-color: orange;
+  width: 80%;
+  height: 600px;
+  margin-left: 10%;
+  transform:rotate(0deg);
+}

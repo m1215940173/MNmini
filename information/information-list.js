@@ -1,16 +1,13 @@
 // Information/InformationList.js
 Page({
 
-  on: function () {
-    wx.navigateTo({
-      url: 'information/information-index'
-    })
-  },
-
   /**
    * 页面的初始数据
    */
-  data: {},
+  data: {
+    clientHeight:0,
+    rotate:-7
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -22,6 +19,10 @@ Page({
         _this.setData({ clientHeight: res.windowHeight })
       }
     });
+    wx.onAccelerometerChange(function (res) {
+      var rotate = parseInt(res.x * 20.8);
+      //_this.setData({ rotate: rotate})
+    })
   },
 
   /**
@@ -71,5 +72,11 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  bindtouchstart:function(){
+    wx.stopAccelerometer();
+  },
+  bindtouchend: function () {
+      wx.startAccelerometer()
   }
 })

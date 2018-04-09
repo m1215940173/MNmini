@@ -1,0 +1,7 @@
+<view class='details-view'>
+  <swiper>
+    <swiper-item>
+    1
+    </swiper-item>
+  </swiper>
+</view>
