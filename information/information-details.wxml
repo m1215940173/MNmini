@@ -1,7 +1,45 @@
-<view class='details-view'>
-  <swiper>
+<swiper style="height: {{clientHeight+'px'}}">
+<swiper-item>
+<view class='view' style="height: {{clientHeight*0.98+'px'}}">
+  <view class='video_view'>
+  <swiper class='video_view_swiper' indicator-dots="true" 
+  indicator-color="#FFF0F5"
+  indicator-active-color="#FFDEAD">
     <swiper-item>
     1
     </swiper-item>
+    <swiper-item>
+    2
+    </swiper-item>
+    <swiper-item>
+    3
+    </swiper-item>
   </swiper>
+  </view>
+  <view class='describe_view'>
+     <view class='thumbnail_view'>
+        <view class='thumbnail_img'></view>
+        <view class='thumbnail_heart'>
+        </view>
+    </view>
+    <view class='title_view'>
+    <text>我是一个超级长的大标题题题题题题题题</text>
+    </view>
+    <view class='summary_view'>
+      
+      <view class='summary_view_text'>
+        <text>这里输入九个字九个字</text>
+      </view>
+    </view>
+    <view class='content_view'>
+    <text>
+    现在是一九九二年深秋，我在香港沙田的一个山坡上闲住。推窗出去，一半是绿树织成的山壁，一半是迷迷蒙蒙的海湾，于是日夜只与鸟鸣和涛声相伴，想找个住得最近的朋友也得翻山越岭。前两天，难得台湾大画家刘国松先生和夫人驾车来看我，说要带我到一个比这里还要冷僻的小渔港去吃海鲜，是杨振宁博士首先发现那个地方，带他们去过的。在那里我看到了真正的海鲜：渔船还没有下帆呢，网兜里的鱼虾已上了锅台。我由此似乎也懂得了什么叫渔港：把海风海浪顷刻间变成人间美味。
+    此刻，我在半山的居所窗口向前眺望，小渔港该在海湾那一边，烟水茫茫间，看不清了。突然想到，这个半山居所对我来说其实也是一个渔港，我从一个喧嚣的闹市走来，打理一下；日损的风帆，然后还会向一种喧嚣驶去。我的出生之地也依山傍水，与这儿非常相像，因此就我的本性而言十分厌倦喧嚣，但是，人生的道路也就是从出生地出发，越走越远。一出生便是自己，由此开始的人生就是要让自己与种种异己的一切打交道。打交道的结果可能丧失自己，也可能在一个更高的层面上把自己找回。在熙熙攘攘的闹市中，要实现后一种可能极不容易。例如我所生活的那座城市，照理文明水平应该不低，却不知怎么专门给鲁迅、巴金等文化名人带来数不尽的麻烦，即便明哲如他们，也往往要花费巨大的人格勇气才能找回自己，而更多的人则如找不回渔港的风帆，逃不出利用、妒恨、攻陷、冷漠的旋涡，在街市间消亡。为此，我常常离开这座城市，长途跋涉，借山水风物与历史精魂默默对话，寻找自己在辽阔的时间和空间中的生命坐标，把自己抓住。
+    </text>
+    </view>
+  </view>
 </view>
+</swiper-item>
+</swiper>
+
+
