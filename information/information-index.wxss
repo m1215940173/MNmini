@@ -1,26 +1,32 @@
 .swiper_top {
   width:100%; 
-  height:710rpx;
+  height:380px;
 }
 .swiper_top_view{
-  background-color:#c33f88;
-  height:670rpx;
+  /*background-color:#c33f88;*/
+  height:350px;
   margin : 20rpx 8% 10rpx 8%;
   border-radius: 6px;
   box-shadow: 14rpx 14rpx 6rpx #888888;
+  border-style: solid; 
+  border-width: 1px 1px 1px 1px;
+  border-color: #888888;
 }
 .view_center_x{
   width: 100%;
   white-space: nowrap; 
 }
 .view_center_x_view{
-  background-color:#c33f88;
+  /*background-color:#c33f88;*/
   height:200rpx;
   width: 150rpx;
   margin : 15rpx 20rpx 15rpx 20rpx;
   border-radius: 6px;
   display: inline-block;
   box-shadow: 14rpx 14rpx 6rpx #888888;
+  border-style: solid; 
+  border-width: 1px 1px 1px 1px;
+  border-color: #888888;
 }
 .view_center_y{
   width: 100%;
@@ -51,11 +57,11 @@
 }
 .type_view_img{
   height: 50%;
-  background-color: #c33f88;
+  /*background-color: #c33f88;*/
 }
 .type_view_text{
   height: 45%;
-  background-color: yellowgreen;
+  /*background-color: yellowgreen;*/
 }
 .type_view_text_title{
   font-size: 34rpx;

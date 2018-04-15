@@ -1,9 +1,8 @@
 {
   "pages": [
-    "information/information-details",
     "information/information-index",
-    "information/information-list"
-    
+    "information/information-list",
+    "information/information-details"
   ],
   "window": {
     "backgroundTextStyle": "light",

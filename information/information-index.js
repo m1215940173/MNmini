@@ -4,13 +4,16 @@ Page({
       url: "../information/information-list"
     })
   },
-
+  swiper_top_change:function(e){
+    console.log(e.detail.current);
+  },
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+    array:[1,2,3,4,5,6,8],
+    current:6
   },
 
   /**

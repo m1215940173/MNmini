@@ -1,18 +1,12 @@
 <swiper style="height: {{clientHeight+'px'}}">
-<swiper-item>
+<swiper-item wx:for="{{array}}">
 <view class='view' style="height: {{clientHeight*0.98+'px'}}">
   <view class='video_view'>
   <swiper class='video_view_swiper' indicator-dots="true" 
   indicator-color="#FFF0F5"
   indicator-active-color="#FFDEAD">
-    <swiper-item>
-    1
-    </swiper-item>
-    <swiper-item>
-    2
-    </swiper-item>
-    <swiper-item>
-    3
+    <swiper-item wx:for="{{array}}">
+    
     </swiper-item>
   </swiper>
   </view>

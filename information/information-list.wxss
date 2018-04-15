@@ -17,6 +17,9 @@
   box-shadow: 14rpx 14rpx 6rpx #888888;
   background-color: yellowgreen;
   transform:rotate(0deg);
+  border-style: solid; 
+  border-width: 1px 1px 1px 1px;
+  border-color: #888888;
 }
 .list_view_view{
   width: 100%;

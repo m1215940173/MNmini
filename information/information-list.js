@@ -1,12 +1,17 @@
 // Information/InformationList.js
 Page({
-
+  toast: function () {
+    wx.navigateTo({
+      url: "../information/information-details"
+    })
+  },
   /**
    * 页面的初始数据
    */
   data: {
     clientHeight:0,
-    rotate:-7
+    rotate:0,
+    array: [1, 2, 3, 4, 5, 6, 8]
   },
 
   /**

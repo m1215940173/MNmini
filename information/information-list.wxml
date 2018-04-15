@@ -1,86 +1,10 @@
 <view class='view' bindtouchstart='bindtouchstart' bindtouchend ='bindtouchend' >
   <swiper class='list_swiper' style="height: {{clientHeight+'px'}}">
-    <swiper-item class='list_swiper_item'>
+    <swiper-item class='list_swiper_item' wx:for="{{array}}">
       <scroll-view scroll-y class='list_scroll'style="height: {{clientHeight+'px'}}">
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
+        <view class='list_view' style="transform:rotate({{rotate+'deg'}})"bindtap="toast" wx:for="{{array}}">
+          <view class = "list_view_view" >
             <view class = "list_view_text">{{rotate+'deg'}}</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})">
-          <view class = "list_view_view" bindtap="on">
-            <view class = "list_view_text">小样。</view>
-          </view>
-        </view>
-        
-      </scroll-view>
-    </swiper-item>
-    <swiper-item class='list_swiper_item'>
-      <scroll-view scroll-y class='list_scroll'style="height: {{clientHeight+'px'}}">
-        <view class='list_view'bindtap="on">
-          <view class = "list_view_view">
-            <view class = "list_view_text">荒废。</view>
           </view>
         </view>
       </scroll-view>
