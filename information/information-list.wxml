@@ -2,12 +2,18 @@
   <swiper class='list_swiper' style="height: {{clientHeight+'px'}}">
     <swiper-item class='list_swiper_item' wx:for="{{array}}">
       <scroll-view scroll-y class='list_scroll'style="height: {{clientHeight+'px'}}">
-        <view class='list_view' style="transform:rotate({{rotate+'deg'}})"bindtap="toast" wx:for="{{array}}">
-          <view class = "list_view_view" >
-            <view class = "list_view_text">{{rotate+'deg'}}</view>
+        <view class='list_view' style="transform:rotate({{rotate+'deg'}})"bindtap="to_details" wx:for="{{array}}">
+         <image class='view_img' mode="aspectFill"
+      src='http://img3.imgtn.bdimg.com/it/u=2297006018,570198145&fm=27&gp=0.jpg'></image>
+       <view class = "list_view_view" >
+            <view class = "list_view_text">薛之谦。</view>
           </view>
         </view>
       </scroll-view>
     </swiper-item>
   </swiper>
 </view>
+
+
+
+

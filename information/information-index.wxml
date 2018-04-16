@@ -1,27 +1,37 @@
 <view>
-  <swiper class="swiper_top" bindchange="swiper_top_change" current="{{current}}">
+  <swiper class="swiper_top" bindchange="swiper_top_change">
     <swiper-item wx:for="{{array}}">
-      <view class='swiper_top_view'bindtap="toast">
-      跳转
+      <view class='swiper_top_view'bindtap="to_details">
+      <image class='view_img'  mode="aspectFill"
+      src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523916207044&di=6ac0bfbdbed41d2e23e21e6d246c4e0b&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201611%2F20%2F20161120165542_JQvNG.thumb.700_0.jpeg'></image>
       </view>
     </swiper-item>
   </swiper>
   <scroll-view scroll-x class='view_center_x' >
         <view class='view_center_x_view' wx:for="{{array}}">
-              小图
+              <image class='view_img'  mode="aspectFill"
+      src='http://imgfs.oppo.cn/uploads/thread/attachment/2017/08/19/15031030141060.jpg'></image>
         </view>
   </scroll-view>
   <view class='view_center_y'>
-        <view class='view_center_y_view' wx:for="{{array}}">
+        <view class='view_center_y_view' wx:for="{{array}}" bindtap="to_list">
               <view  class='type_describe'>
-                <text class='type_title'>最新活动</text>
+                <text class='type_title'>奥黛丽·赫本</text>
                 <text class='type_text'> | 04月07日 星期六</text>
               </view>
               <view class='type_view'>
-                <view class='type_view_img'>图片</view>
+                <view class='type_view_img'>
+                <image class='view_img'  mode="aspectFill"
+      src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1523916320708&di=071920a6aa3096f17dc959b7a710c506&imgtype=0&src=http%3A%2F%2Fi1.hdslb.com%2Fbfs%2Farchive%2F332e6ce66354522e9d6ce3070c00dd05dacd6d03.jpg'></image>
+                </view>
                 <view class='type_view_text'>
-                  <view class='type_view_text_title'><text>莫娜美妆学院招生通知！！！</text></view>
-                  <view class='type_view_text_content'>莫娜美妆学院招生通知！！！</view>
+                  <view class='type_view_text_title'><text>简介</text></view>
+                  <view class='type_view_text_content'>奥黛丽·赫本（Audrey Hepburn，1929年5月4日—1993年1月20日），出生于比利时布鲁塞尔，英国电影、舞台剧女演员。
+1948年，赫本在一部时长仅39分钟的荷兰风光纪录片《荷兰七课》中出镜，开始电影生涯。
+1953年，她在影片《罗马假日》中第一次出演女主角，并获得奥斯卡最佳女主角奖。同年，她因在舞台剧《美人鱼》中的表演，获得托尼奖的最佳女主角。
+1961年，她主演了电影《蒂凡尼的早餐》。1964年，她主演了歌舞片《窈窕淑女》。1989年，息影多年的奥黛丽客串出演最后一部电影《直到永远》。
+晚年时，奥黛丽·赫本投身慈善事业，是联合国儿童基金会亲善大使的代表人物，为第三世界妇女与孩童争取权益。1992年被授予美国“总统自由勋章”，1993年获奥斯卡人道主义奖 [1]  。1993年1月20日，奥黛丽·赫本因患癌，病逝于瑞士，享年63岁。
+赫本一生中共获得五次奥斯卡最佳女主角提名。1999年，她被美国电影学会评为“百年来最伟大的女演员”第三位。2002年5月，联合国儿童基金会在其纽约总部为一尊7英尺高的青铜雕像揭幕，雕像名字为奥黛丽精神（The Spirit of Audrey），以表彰赫本为联合国所做的贡献。</view>
                 </view>
                 <view class='type_view_bottom'>20项</view>
               </view>

@@ -1,7 +1,13 @@
 Page({
-  toast: function () {
+  to_list: function () {
     wx.navigateTo({
       url: "../information/information-list"
+    })
+  },
+
+  to_details: function () {
+    wx.navigateTo({
+      url: "../information/information-details"
     })
   },
   swiper_top_change:function(e){
@@ -12,8 +18,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    array:[1,2,3,4,5,6,8],
-    current:6
+    array:[1,2,3,4,5,6,8]
   },
 
   /**

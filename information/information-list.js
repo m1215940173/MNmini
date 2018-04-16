@@ -1,6 +1,6 @@
 // Information/InformationList.js
 Page({
-  toast: function () {
+  to_details: function () {
     wx.navigateTo({
       url: "../information/information-details"
     })
@@ -26,7 +26,7 @@ Page({
     });
     wx.onAccelerometerChange(function (res) {
       var rotate = parseInt(res.x * 20.8);
-      //_this.setData({ rotate: rotate})
+      _this.setData({ rotate: 0-rotate})
     })
   },
 
